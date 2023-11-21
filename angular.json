@@ -65,10 +65,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "tripix:build:production"
+              "buildTarget": "tripix:build:production"
             },
             "development": {
-              "browserTarget": "tripix:build:development"
+              "buildTarget": "tripix:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -76,7 +76,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "tripix:build"
+            "buildTarget": "tripix:build"
           }
         },
         "test": {
